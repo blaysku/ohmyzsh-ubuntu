@@ -1,0 +1,1 @@
+# Oh my zsh aliases
