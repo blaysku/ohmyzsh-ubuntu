@@ -1,6 +1,7 @@
 (( $+commands[apt] )) && APT=apt || APT=apt-get
 
 alias upgrade="sudo $APT update -y && sudo $APT upgrade -y && sudo snap refresh && sudo $APT autoclean && sudo $APT autoremove"
+alias scr="scrcpy --disable-screensaver --turn-screen-off --stay-awake"
 alias disable_keyboard="xinput float 19"
 alias enable_keyboard="xinput reattach 19 3"
 
