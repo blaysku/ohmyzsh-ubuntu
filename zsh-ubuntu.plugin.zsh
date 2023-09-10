@@ -5,6 +5,9 @@ alias scr="scrcpy --disable-screensaver --turn-screen-off --stay-awake"
 alias disable_keyboard="xinput float $(xinput list --id-only 'AT Translated Set 2 keyboard')"
 alias enable_keyboard="xinput reattach $(xinput list --id-only 'AT Translated Set 2 keyboard') 3"
 
+# Laravel sail
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
 # Prints apt history
 # Usage:
 #   apt-history install
